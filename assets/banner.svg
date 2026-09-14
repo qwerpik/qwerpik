@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
   <title id="t">qwerpik — FOSS and Linux enthusiast</title>
-  <desc id="d">Minimal terminal-rice banner: a shell prompt, the name qwerpik and a small fetch-style system info block in the Tokyo Night palette.</desc>
+  <desc id="d">Minimal terminal-rice banner: a shell prompt, the name qwerpik and a small fetch-style system info block in the Catppuccin Mocha palette.</desc>
 
   <defs>
     <pattern id="dotgrid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="13" cy="13" r="1" fill="#292e42"/>
+      <circle cx="13" cy="13" r="1" fill="#313244"/>
     </pattern>
     <radialGradient id="glow" cx="0.18" cy="0.5" r="0.35">
-      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0.07"/>
-      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+      <stop offset="0" stop-color="#89b4fa" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#89b4fa" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
@@ -16,22 +16,22 @@
     text {
       font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
     }
-    .name    { font-size: 62px; font-weight: 700; fill: #c0caf5; letter-spacing: 0.5px; }
-    .prompt  { font-size: 15px; fill: #7aa2f7; }
-    .promptd { font-size: 15px; fill: #565f89; }
-    .tagline { font-size: 11px; fill: #565f89; letter-spacing: 3px; }
-    .hdr     { font-size: 16px; font-weight: 700; fill: #c0caf5; }
-    .key     { font-size: 13px; fill: #7aa2f7; }
-    .val     { font-size: 13px; fill: #c0caf5; }
+    .name    { font-size: 62px; font-weight: 700; fill: #cdd6f4; letter-spacing: 0.5px; }
+    .prompt  { font-size: 15px; fill: #89b4fa; }
+    .promptd { font-size: 15px; fill: #6c7086; }
+    .tagline { font-size: 11px; fill: #6c7086; letter-spacing: 3px; }
+    .hdr     { font-size: 16px; font-weight: 700; fill: #cdd6f4; }
+    .key     { font-size: 13px; fill: #89b4fa; }
+    .val     { font-size: 13px; fill: #cdd6f4; }
   </style>
 
   <!-- field -->
-  <rect width="1000" height="300" fill="#16161e"/>
+  <rect width="1000" height="300" fill="#1e1e2e"/>
   <rect width="1000" height="300" fill="url(#dotgrid)"/>
   <rect width="1000" height="300" fill="url(#glow)"/>
 
   <!-- corner registration marks -->
-  <g fill="none" stroke="#292e42" stroke-width="1.5">
+  <g fill="none" stroke="#313244" stroke-width="1.5">
     <path d="M22 36 V22 H36"/>
     <path d="M964 22 H978 V36"/>
     <path d="M22 264 V278 H36"/>
@@ -39,11 +39,11 @@
   </g>
 
   <!-- faint vertical hairline, tmux-pane motif -->
-  <line x1="580" y1="92" x2="580" y2="262" stroke="#292e42" stroke-width="1" opacity="0.65"/>
+  <line x1="580" y1="92" x2="580" y2="262" stroke="#313244" stroke-width="1" opacity="0.65"/>
 
   <!-- ======================= left column : prompt + name ======================= -->
   <!-- prompt: chevron drawn as path (font-independent), path segment -->
-  <path d="M64 92 l7 7 -7 7" fill="none" stroke="#9ece6a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 92 l7 7 -7 7" fill="none" stroke="#a6e3a1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
   <text class="promptd" x="82" y="105">~</text>
   <text class="prompt" x="94" y="105">/qwerpik</text>
 
@@ -51,7 +51,7 @@
   <text class="name" x="64" y="164">qwerpik</text>
 
   <!-- blinking caret on its own prompt line (static first frame: visible) -->
-  <rect x="64" y="183" width="11" height="20" fill="#bb9af7">
+  <rect x="64" y="183" width="11" height="20" fill="#cba6f7">
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
   </rect>
 
@@ -60,24 +60,24 @@
 
   <!-- ======================= right column : fetch block ======================= -->
   <text class="hdr" x="620" y="100">qwerpik@github</text>
-  <line x1="620" y1="112" x2="936" y2="112" stroke="#292e42" stroke-width="1"/>
+  <line x1="620" y1="112" x2="936" y2="112" stroke="#313244" stroke-width="1"/>
 
   <!-- rows: labels at x=620, values at fixed x=684 (never font-metric dependent) -->
   <text class="key" x="620" y="140">os</text>     <text class="val" x="684" y="140">GNU/Linux x86_64</text>
-  <text class="key" x="620" y="166">wm</text>     <text class="val" x="684" y="166">Hyprland</text>
+  <text class="key" x="620" y="166">wm</text>     <text class="val" x="684" y="166">mangowm</text>
   <text class="key" x="620" y="192">lang</text>   <text class="val" x="684" y="192">Python / Shell / Web</text>
-  <text class="key" x="620" y="218">theme</text>  <text class="val" x="684" y="218">Tokyo Night</text>
+  <text class="key" x="620" y="218">theme</text>  <text class="val" x="684" y="218">Catppuccin</text>
   <text class="key" x="620" y="244">uptime</text> <text class="val" x="684" y="244">since Jul 2026</text>
 
   <!-- palette chips, neofetch memory rendered as pure geometry -->
-  <g stroke="#292e42" stroke-width="0.75">
-    <rect x="620" y="261" width="12" height="12" rx="2" fill="#414868"/>
-    <rect x="637" y="261" width="12" height="12" rx="2" fill="#f7768e"/>
-    <rect x="654" y="261" width="12" height="12" rx="2" fill="#9ece6a"/>
-    <rect x="671" y="261" width="12" height="12" rx="2" fill="#e0af68"/>
-    <rect x="688" y="261" width="12" height="12" rx="2" fill="#7aa2f7"/>
-    <rect x="705" y="261" width="12" height="12" rx="2" fill="#bb9af7"/>
-    <rect x="722" y="261" width="12" height="12" rx="2" fill="#7dcfff"/>
-    <rect x="739" y="261" width="12" height="12" rx="2" fill="#c0caf5"/>
+  <g stroke="#313244" stroke-width="0.75">
+    <rect x="620" y="261" width="12" height="12" rx="2" fill="#45475a"/>
+    <rect x="637" y="261" width="12" height="12" rx="2" fill="#f38ba8"/>
+    <rect x="654" y="261" width="12" height="12" rx="2" fill="#a6e3a1"/>
+    <rect x="671" y="261" width="12" height="12" rx="2" fill="#f9e2af"/>
+    <rect x="688" y="261" width="12" height="12" rx="2" fill="#89b4fa"/>
+    <rect x="705" y="261" width="12" height="12" rx="2" fill="#cba6f7"/>
+    <rect x="722" y="261" width="12" height="12" rx="2" fill="#f5c2e7"/>
+    <rect x="739" y="261" width="12" height="12" rx="2" fill="#cdd6f4"/>
   </g>
 </svg>

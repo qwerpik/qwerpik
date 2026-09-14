@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=7AA2F7&center=true&vCenter=true&width=640&lines=the+config+is+never+done.;%24+learning+--daily+--in-public;free+software%2C+proprietary+sleep+schedule." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=89B4FA&center=true&vCenter=true&width=640&lines=the+config+is+never+done.;%24+learning+--daily+--in-public;free+software%2C+proprietary+sleep+schedule." alt="Typing SVG" />
   </a>
 </div>
 
@@ -21,15 +21,15 @@
 <table>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=qwerpik&theme=tokyonight" alt="profile details" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=qwerpik&theme=dracula" alt="profile details" />
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=qwerpik&theme=tokyonight" alt="repos per language" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=qwerpik&theme=dracula" alt="repos per language" />
     </td>
     <td align="center">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=qwerpik&theme=tokyonight" alt="most committed languages" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=qwerpik&theme=dracula" alt="most committed languages" />
     </td>
   </tr>
 </table>
