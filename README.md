@@ -32,11 +32,6 @@
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=qwerpik&theme=tokyonight" alt="most committed languages" />
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://streak-stats.demolab.com?user=qwerpik&hide_border=true&background=16161E&stroke=292E42&ring=7AA2F7&fire=E0AF68&currStreakLabel=9ECE6A&sideLabels=565F89&currStreakNum=C0CAF5&sideNums=C0CAF5&dates=565F89" alt="GitHub streak" />
-    </td>
-  </tr>
 </table>
 
 ## contribution graph
