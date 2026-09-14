@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-label="qwerpik@github terminal running neofetch">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .title { font-size: 13px; fill: #565f89; }
+    .prompt { font-size: 16px; }
+    .prompt-user { font-weight: 700; fill: #9ece6a; }
+    .prompt-path { font-weight: 700; fill: #7aa2f7; }
+    .prompt-sign { font-weight: 700; fill: #9ece6a; }
+    .cmd { fill: #c0caf5; }
+    .host { font-weight: 700; font-size: 16px; fill: #9ece6a; }
+    .rule { font-size: 16px; fill: #565f89; }
+    .key { font-weight: 700; font-size: 16px; fill: #bb9af7; }
+    .val { font-size: 16px; fill: #c0caf5; }
+  </style>
+
+  <!-- window body -->
+  <rect x="1" y="1" width="998" height="338" rx="14" fill="#16161e" stroke="#292e42" stroke-width="2"/>
+  <!-- titlebar -->
+  <path d="M 1 15 a 14 14 0 0 1 14 -14 h 970 a 14 14 0 0 1 14 14 v 27 h -998 z" fill="#1a1b26"/>
+  <line x1="1" y1="42" x2="999" y2="42" stroke="#292e42" stroke-width="1"/>
+  <circle cx="32" cy="21" r="7" fill="#f7768e"/>
+  <circle cx="56" cy="21" r="7" fill="#e0af68"/>
+  <circle cx="80" cy="21" r="7" fill="#9ece6a"/>
+  <text class="mono title" x="500" y="26" text-anchor="middle">qwerpik@github: ~</text>
+
+  <!-- prompt line -->
+  <text class="mono prompt" x="60" y="82" xml:space="preserve">
+    <tspan class="prompt-user">qwerpik@github</tspan><tspan class="prompt-path"> ~ </tspan><tspan class="prompt-sign">$ </tspan><tspan class="cmd">neofetch</tspan>
+  </text>
+
+  <!-- tux (drawn, flat tokyo-night style) -->
+  <g stroke-linecap="round">
+    <!-- wings -->
+    <ellipse cx="82" cy="202" rx="11" ry="27" fill="#2f334d" stroke="#7aa2f7" stroke-width="1.5" transform="rotate(18 82 202)"/>
+    <ellipse cx="158" cy="202" rx="11" ry="27" fill="#2f334d" stroke="#7aa2f7" stroke-width="1.5" transform="rotate(-18 158 202)"/>
+    <!-- body & head -->
+    <circle cx="120" cy="152" r="24" fill="#2f334d" stroke="#7aa2f7" stroke-width="1.5"/>
+    <ellipse cx="120" cy="202" rx="40" ry="42" fill="#2f334d" stroke="#7aa2f7" stroke-width="1.5"/>
+    <!-- belly -->
+    <ellipse cx="120" cy="208" rx="25" ry="31" fill="#a9b1d6"/>
+    <!-- eyes -->
+    <circle cx="112" cy="149" r="5.5" fill="#c0caf5"/>
+    <circle cx="128" cy="149" r="5.5" fill="#c0caf5"/>
+    <circle cx="113.5" cy="150" r="2.5" fill="#16161e"/>
+    <circle cx="126.5" cy="150" r="2.5" fill="#16161e"/>
+    <!-- beak -->
+    <path d="M 112 159 L 128 159 L 120 168 Z" fill="#e0af68"/>
+    <!-- feet -->
+    <ellipse cx="104" cy="246" rx="14" ry="6" fill="#e0af68"/>
+    <ellipse cx="136" cy="246" rx="14" ry="6" fill="#e0af68"/>
+  </g>
+
+  <!-- info block -->
+  <text class="mono host" x="330" y="118">qwerpik@github</text>
+  <text class="mono rule" x="330" y="140" xml:space="preserve">-------------</text>
+  <text class="mono" x="330" y="164" xml:space="preserve"><tspan class="key">OS:      </tspan><tspan class="val">GNU/Linux</tspan></text>
+  <text class="mono" x="330" y="188" xml:space="preserve"><tspan class="key">WM:      </tspan><tspan class="val">Hyprland</tspan></text>
+  <text class="mono" x="330" y="212" xml:space="preserve"><tspan class="key">Lang:    </tspan><tspan class="val">Python / Shell / Web</tspan></text>
+  <text class="mono" x="330" y="236" xml:space="preserve"><tspan class="key">Uptime:  </tspan><tspan class="val">since Jul 2026</tspan></text>
+  <text class="mono" x="330" y="260" xml:space="preserve"><tspan class="key">Theme:   </tspan><tspan class="val">Tokyo Night</tspan></text>
+  <text class="mono" x="330" y="284" xml:space="preserve"><tspan class="key">Policy:  </tspan><tspan class="val">free as in freedom</tspan></text>
+
+  <!-- terminal color dots -->
+  <g>
+    <circle cx="333" cy="306" r="7" fill="#f7768e"/>
+    <circle cx="359" cy="306" r="7" fill="#e0af68"/>
+    <circle cx="385" cy="306" r="7" fill="#9ece6a"/>
+    <circle cx="411" cy="306" r="7" fill="#7dcfff"/>
+    <circle cx="437" cy="306" r="7" fill="#7aa2f7"/>
+    <circle cx="463" cy="306" r="7" fill="#bb9af7"/>
+    <circle cx="489" cy="306" r="7" fill="#ff9e64"/>
+    <circle cx="515" cy="306" r="7" fill="#c0caf5"/>
+  </g>
+
+  <!-- bottom prompt with blinking cursor -->
+  <text class="mono prompt" x="60" y="312" xml:space="preserve">
+    <tspan class="prompt-user">qwerpik@github</tspan><tspan class="prompt-path"> ~ </tspan><tspan class="prompt-sign">$ </tspan><tspan fill="#9ece6a">█<animate attributeName="fill" values="#9ece6a;#16161e" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/></tspan>
+  </text>
+</svg>
