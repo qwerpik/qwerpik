@@ -14,7 +14,7 @@
 - python, shell, rust. small tools, mostly for my own setup
 - FOSS. if I use it every day, I publish it
 - give back to the commons: code, fixes, docs
-- effective accelerationism. progress compounds, so I ship
+- effective accelerationism. ai is progressing too slow
 - currently: waybar-pomodoro, claudestateanchor, contextslice
 
 ## projects
