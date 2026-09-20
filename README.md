@@ -12,8 +12,7 @@
 
 - artix linux + wayland, daily driver
 - python, shell, rust. small tools, mostly for my own setup
-- FOSS. if I use it every day, I publish it
-- give back to the commons: code, fixes, docs
+- FOSS: publish what I use, give back code, fixes, docs
 - effective accelerationism. ai is progressing too slow
 - currently: waybar-pomodoro, claudestateanchor, contextslice
 
