@@ -14,7 +14,7 @@
 - python, shell, rust. small tools, mostly for my own setup
 - FOSS: publish what I use, give back code, fixes, docs
 - effective accelerationism. ai is progressing too slow
-- currently: waybar-pomodoro, claudestateanchor, contextslice
+- homelabbing in free time
 
 ## projects
 
