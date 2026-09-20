@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" alt="qwerpik — FOSS and Linux enthusiast" width="100%" />
+  <img src="./assets/banner.svg" alt="qwerpik, FOSS and Linux" width="100%" />
 </div>
 
 <div align="center">
@@ -10,12 +10,30 @@
 
 ## whoami
 
-- linux daily driver — user, breaker, and reluctant rebuilder
-- python & shell scripts, mostly to automate things that take longer to automate than to do
-- actively ricing: the window manager config gets more commits than most of my repos
-- optimizing everything, including things that were already fine
-- foss believer — free as in freedom, readable as in i actually read the license
-- learning daily, usually because something is on fire
+- linux daily driver: I use it, break it, then rebuild it
+- python and shell scripts, mostly to automate things faster done by hand
+- ricing my window manager, it gets more commits than most repos
+- FOSS first: free as in freedom, and I read the licenses
+- learning daily, usually because something caught fire
+
+## projects
+
+| Project | What it does | Stack |
+|---|---|---|
+| [**waybar-pomodoro**](https://github.com/qwerpik/waybar-pomodoro) [![stars](https://img.shields.io/github/stars/qwerpik/waybar-pomodoro?style=flat-square&color=yellow)](https://github.com/qwerpik/waybar-pomodoro/stargazers) | Focus timer inside Waybar. Zero background CPU, atomic locks, DND while you focus, mouse-wheel to adjust. | Python, Waybar, Wayland |
+| [**claudestateanchor**](https://github.com/qwerpik/claudestateanchor) [![stars](https://img.shields.io/github/stars/qwerpik/claudestateanchor?style=flat-square&color=yellow)](https://github.com/qwerpik/claudestateanchor/stargazers) | Keeps Claude Code session memory across compactions. Zero-dependency plugin, 4 small hooks, fully offline. | Node, shell, hooks |
+| [**contextslice**](https://github.com/qwerpik/contextslice) [![stars](https://img.shields.io/github/stars/qwerpik/contextslice?style=flat-square&color=yellow)](https://github.com/qwerpik/contextslice/stargazers) | Picks what files an agent should read under a token budget. Pre-alpha: engine not built yet, workspace and CI are. | Rust, tree-sitter, SQLite |
+
+Pin these three on the profile: `waybar-pomodoro`, `claudestateanchor`, `contextslice`.
+
+## stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Wayland](https://img.shields.io/badge/Wayland-00CCCE?style=for-the-badge&logo=wayland&logoColor=white)
+![Nix](https://img.shields.io/badge/Nix-7EBAE4?style=for-the-badge&logo=nixos&logoColor=white)
 
 ## stats
 
@@ -43,4 +61,21 @@
   <img src="https://raw.githubusercontent.com/qwerpik/qwerpik/output/snake.svg" alt="snake eating my contributions" width="100%" />
 </picture>
 
+---
+
+<div align="center">
+
+Built by [qwerpik](https://github.com/qwerpik)
+
+<br />
+
+If one of the projects above saved you time, star it. That is the whole CTA.
+
+[![Star waybar-pomodoro](https://img.shields.io/github/stars/qwerpik/waybar-pomodoro?style=for-the-badge&logo=github&label=%E2%AD%90%20waybar-pomodoro&color=yellow)](https://github.com/qwerpik/waybar-pomodoro/stargazers)
+&nbsp;
+[![Star claudestateanchor](https://img.shields.io/github/stars/qwerpik/claudestateanchor?style=for-the-badge&logo=github&label=%E2%AD%90%20claudestateanchor&color=yellow)](https://github.com/qwerpik/claudestateanchor/stargazers)
+
+<!-- previous version kept in README.backup.md -->
 <!-- qwerpik@github:~$ exit -->
+
+</div>
