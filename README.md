@@ -30,7 +30,7 @@
 [![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/koalaman/shellcheck)
 [![Rust](https://img.shields.io/badge/Rust-CE422B?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/rust-lang/rust)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/torvalds/linux)
-[![Wayland](https://img.shields.io/badge/Wayland-00CCCE?style=for-the-badge&logo=wayland&logoColor=white)](https://github.com/wayland-project/wayland)
+[![Wayland](https://img.shields.io/badge/Wayland-00CCCE?style=for-the-badge&logo=wayland&logoColor=white)](https://github.com/swaywm/sway)
 [![Artix](https://img.shields.io/badge/Artix-10A0CC?style=for-the-badge&logo=artixlinux&logoColor=white)](https://github.com/artix-linux)
 
 ## stats
