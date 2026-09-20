@@ -10,11 +10,10 @@
 
 ## whoami
 
-- linux daily driver: I use it, break it, then rebuild it
-- python and shell scripts, mostly to automate things faster done by hand
-- ricing my window manager, it gets more commits than most repos
-- FOSS first: free as in freedom, and I read the licenses
-- learning daily, usually because something caught fire
+- artix linux + wayland, daily driver
+- python, shell, rust. small tools, mostly for my own setup
+- FOSS. if I use it every day, I publish it
+- currently: waybar-pomodoro, claudestateanchor, contextslice
 
 ## projects
 
