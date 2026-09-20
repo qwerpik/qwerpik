@@ -24,8 +24,6 @@
 | [**claudestateanchor**](https://github.com/qwerpik/claudestateanchor) [![stars](https://img.shields.io/github/stars/qwerpik/claudestateanchor?style=flat-square&color=yellow)](https://github.com/qwerpik/claudestateanchor/stargazers) | Keeps Claude Code session memory across compactions. Zero-dependency plugin, 4 small hooks, fully offline. | Node, shell, hooks |
 | [**contextslice**](https://github.com/qwerpik/contextslice) [![stars](https://img.shields.io/github/stars/qwerpik/contextslice?style=flat-square&color=yellow)](https://github.com/qwerpik/contextslice/stargazers) | Picks what files an agent should read under a token budget. Pre-alpha: engine not built yet, workspace and CI are. | Rust, tree-sitter, SQLite |
 
-Pin these three on the profile: `waybar-pomodoro`, `claudestateanchor`, `contextslice`.
-
 ## stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
