@@ -15,8 +15,15 @@
 | project | what it does | stack |
 |---|---|---|
 | [**waybar-pomodoro**](https://github.com/qwerpik/waybar-pomodoro) [![stars](https://img.shields.io/github/stars/qwerpik/waybar-pomodoro?style=flat-square&color=89b4fa&labelColor=313244)](https://github.com/qwerpik/waybar-pomodoro/stargazers) | A focus timer for Waybar with notification silencing and session tracking. | Python, Waybar, Wayland |
-| [**claudestateanchor**](https://github.com/qwerpik/claudestateanchor) [![stars](https://img.shields.io/github/stars/qwerpik/claudestateanchor?style=flat-square&color=89b4fa&labelColor=313244)](https://github.com/qwerpik/claudestateanchor/stargazers) | Saves and restores Claude Code session context with local hooks. | Node, shell, hooks |
-| [**contextslice**](https://github.com/qwerpik/contextslice) [![stars](https://img.shields.io/github/stars/qwerpik/contextslice?style=flat-square&color=89b4fa&labelColor=313244)](https://github.com/qwerpik/contextslice/stargazers) | Token-budgeted context selection for coding agents. Pre-alpha; selection engine not implemented yet. | Rust, tree-sitter, SQLite |
+| [**mango-performance-mode**](https://github.com/qwerpik/mango-performance-mode) [![stars](https://img.shields.io/github/stars/qwerpik/mango-performance-mode?style=flat-square&color=89b4fa&labelColor=313244)](https://github.com/qwerpik/mango-performance-mode/stargazers) | Eco, Balanced, and Max power modes for Ryzen/Radeon systems running MangoWM. | Python, Waybar, Linux |
+| [**cynical-council**](https://github.com/qwerpik/cynical-council) [![stars](https://img.shields.io/github/stars/qwerpik/cynical-council?style=flat-square&color=89b4fa&labelColor=313244)](https://github.com/qwerpik/cynical-council/stargazers) | Evidence-driven code review from four skeptical perspectives. | Codex skill, prompt |
+
+## experiments
+
+| project | status | stack |
+|---|---|---|
+| [**claudestateanchor**](https://github.com/qwerpik/claudestateanchor) | Claude Code session-state hooks; real compact-path verification remains open. | Node, shell, hooks |
+| [**contextslice**](https://github.com/qwerpik/contextslice) | Pre-alpha; selection engine not implemented yet. | Rust, tree-sitter, SQLite |
 
 ## stack
 
