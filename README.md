@@ -7,7 +7,7 @@
 - artix linux + wayland, every day
 - small tools in python, shell, and rust, mostly for my own setup
 - FOSS: sharing what I use through code, fixes, and docs
-- effective accelerationism. i want ai to move faster
+- effective accelerationism.I want ai to move faster
 - homelabbing in my spare time
 
 ## projects
